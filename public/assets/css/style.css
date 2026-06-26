@@ -238,8 +238,8 @@ button{ font-family: inherit; }
 .hero-video p.lead{ color: rgba(248,245,236,.92); }
 .hero-video .hero-trust div{ color: var(--cream); text-shadow: 0 1px 8px rgba(0,0,0,.6); }
 .hero-video .hero-trust svg{ color: var(--sage-light); }
-.hero-video .stat-num{ color: var(--cream); text-shadow: 0 2px 10px rgba(0,0,0,.5); }
-.hero-video .stat-label{ color: rgba(248,245,236,.85); text-shadow: 0 1px 6px rgba(0,0,0,.5); }
+.hero-video .stat-num{ color: var(--gold); text-shadow: 0 2px 12px rgba(0,0,0,.7), 0 1px 3px rgba(0,0,0,.8); }
+.hero-video .stat-label{ color: #ffffff; text-shadow: 0 1px 8px rgba(0,0,0,.8), 0 2px 4px rgba(0,0,0,.6); }
 .hero-video .eyebrow{
   background: rgba(20,24,19,.45);
   color: var(--cream);
