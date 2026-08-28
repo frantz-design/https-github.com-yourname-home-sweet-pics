@@ -717,3 +717,10 @@ footer a:hover{ color: var(--sage-light); }
 
 .skeleton{ background: linear-gradient(90deg, var(--cream-deep) 25%, var(--line) 37%, var(--cream-deep) 63%); background-size: 400% 100%; animation: skeleton 1.4s ease infinite; border-radius: var(--radius-md); }
 @keyframes skeleton{ 0%{ background-position: 100% 50%; } 100%{ background-position: 0 50%; } }
+
+/* ---------- SMS Consent Checkboxes (A2P Compliant) ---------- */
+.sms-consent{ margin-top: 16px; display:flex; flex-direction:column; gap:12px; padding: 14px 16px; background: var(--cream-deep); border-radius: var(--radius-sm); border: 1px solid var(--line); }
+.sms-consent-item{ display:flex; align-items:flex-start; gap:10px; }
+.sms-consent-item input[type="checkbox"]{ width:18px; height:18px; flex-shrink:0; margin-top:2px; accent-color: var(--forest-deep); cursor:pointer; }
+.sms-consent-item label{ font-size:12px; color:var(--muted); line-height:1.55; cursor:pointer; }
+.sms-consent-item label strong{ color:var(--forest-deep); font-weight:700; }
